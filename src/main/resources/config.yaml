@@ -1,0 +1,4 @@
+paths:
+  outputPath: s3://fanatics.prod.internal.confidential/galactus-opsuite/fanhouse/order-actvty-ret-dtl
+
+sparkConf: spark.sql.autoBroadcastJoinThreshold=104857600,spark.sql.shuffle.partitions=500
